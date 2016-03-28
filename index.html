@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Involt</title>
+	<!--Involt UI kit-->
+	<link rel="stylesheet" type="text/css" href="core/framework.css">
+	<link rel="stylesheet" type="text/css" href="core/loader.css">
+	<!--Simplified UI for prototyping-->
+	<!--<link rel="stylesheet" type="text/css" href="core/proto.css">
+		<link rel="stylesheet" type="text/css" href="core/proto-loader.css">-->
+	<script src="core/jquery/jquery-2.1.0.min.js"></script>
+	<script src="core/jquery/jquery.nouislider.min.js"></script>
+	<script src="core/jquery/jquery.knob.js"></script>
+	<script src="core/jquery/insQ.min.js"></script>
+	<script src="core/involt.js"></script>
+	<script src="core/framework.js"></script> 
+<style>
+body
+{
+	text align: center; 
+	background-color: SlateGray; 
+	color: white; 
+}
+
+h1
+{
+	text align: center; 
+	color: PaleGreen; 
+}
+</style>
+</head>
+
+<body>
+
+	<h1 style="font-family:verdana;">MOXY Test Serial APP</h1>	
+
+
+    	<!Buttons and Huzzah interface>
+    	<div class="ard toggle D0 0"></div>
+
+	<p>The button below determines direction of the motor.
+	<br>ON moves the motor right, OFF left.
+	</p>
+
+	<p>Button below should move da motor left.</p>
+	<div class="ard button S0" string="left"></div>
+
+	<p>Button below should move da motor right.</p>
+	<div class="ard button S0" string="right"></div>
+	
+	<p>Button below should stop da motor.</p>
+	<div class="ard button S0" string="stop"></div>
+
+</body>
+
+</html>
